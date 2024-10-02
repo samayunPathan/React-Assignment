@@ -1,0 +1,135 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 1%;
+  padding: 0 2vw;
+  box-sizing: border-box;
+}
+
+.search-bar {
+  padding: 0.5vw;
+  border: 1px solid #635d5d;
+  border-radius: 40px;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn, .btn-r {
+  border: none;
+  background: none;
+  font-size: calc(10px + 0.5vw);
+  padding: 0.5vw;
+  white-space: nowrap;
+}
+
+.btn {
+  border-right: 2px solid rgb(121, 114, 114);
+}
+
+.search-button {
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(212, 45, 40);
+  color: white;
+  width: 3vw;
+  height: 3vw;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 40px;
+  max-height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button svg {
+  width: 50%;
+  height: 50%;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  position: relative;
+  right: 0;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 0.5vw 1vw;
+  border: 1px solid #635d5d;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.menu-icon,
+.profile-icon {
+  font-size: calc(16px + 0.5vw);
+  color: #717171;
+}
+
+.globe-i {
+  font-size: calc(24px + 0.5vw);
+  margin-right: 1vw;
+}
+
+.menu-icon {
+  margin-right: 0.5vw;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-bar {
+    margin-bottom: 2vw;
+
+  }
+
+  .profile-container {
+    position: static;
+    margin-top: 2vw;
+  }
+
+  .globe-i {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn, .btn-r {
+    padding: 1.5vw;
+    font-size: calc(8px + 0.5vw);
+  }
+
+  .search-button {
+    width: 4vw;
+    height: 4vw;
+    min-width: 25px;
+    min-height: 25px;
+  }
+
+  .profile {
+    padding: 0.5vw;
+  }
+
+  .menu-icon,
+  .profile-icon {
+    font-size: calc(14px + 0.5vw);
+  }
+}
