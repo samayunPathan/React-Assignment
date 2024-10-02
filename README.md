@@ -58,7 +58,7 @@ project/
 cd React-assignment
 ```
 
-Install dependencies:
+- Install dependencies:
 ```bash
 npm install
 ```
