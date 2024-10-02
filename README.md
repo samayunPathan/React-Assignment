@@ -49,10 +49,13 @@ project/
 ```
 
 ## Setup and Installation
-
+- Clone project
+  ```bash
+  https://github.com/samayunPathan/React-assignment.git
+  ``` 
 - Navigate to the frontend directory:
 ```bash
-cd w3 react-node
+cd React-assignment
 ```
 
 Install dependencies:
